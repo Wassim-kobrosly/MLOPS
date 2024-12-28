@@ -1,20 +1,26 @@
-# Utiliser une image de base Python
-FROM python:3.9-slim
+# Utiliser une image Python officielle comme base
+FROM python:3.8-slim
 
-# Définir le répertoire de travail dans le container
+# Installer des dépendances système nécessaires
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Définir le répertoire de travail
 WORKDIR /app
 
-# Copier le fichier requirements.txt dans le container
-COPY requirements.txt /app/
+# Copier les dépendances
+COPY requirements.txt .
 
-# Installer les dépendances
+# Installer les dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copier le code source dans le container
-COPY . /app/
+# Copier le code source
+COPY ./src /app
 
-# Exposer le port de l'API
+# Exposer le port
 EXPOSE 5000
 
-# Commande pour démarrer l'API Flask
-CMD ["python", "app.py"]
+# Commande de démarrage
+CMD ["python", "api.py"]
