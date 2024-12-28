@@ -7,6 +7,9 @@ RUN apt-get update && apt-get install -y \
     gcc \
     && rm -rf /var/lib/apt/lists/*
 
+# Mettre à jour pip
+RUN pip install --upgrade pip
+
 # Définir le répertoire de travail
 WORKDIR /app
 
@@ -17,7 +20,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le code source
-COPY ./src
+COPY ./src .
 
 # Exposer le port
 EXPOSE 5000

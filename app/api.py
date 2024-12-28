@@ -1,14 +1,23 @@
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify, request
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import os
 
 # Initialisation de l'application Flask
 app = Flask(__name__)
 
 # Charger les données et le modèle
-DATA_PATH = 'ubuntu/desktop/mlops/data/'
+DATA_PATH = './data/'
+if not os.path.exists(f'{DATA_PATH}merged_dataset_cleaned.csv'):
+    raise FileNotFoundError(f"Fichier introuvable : {DATA_PATH}merged_dataset_cleaned.csv")
+
 products = pd.read_csv(f'{DATA_PATH}merged_dataset_cleaned.csv')
+
+# Vérification des colonnes requises
+required_columns = {'main_category', 'sub_category', 'name', 'id_produit'}
+if not required_columns.issubset(products.columns):
+    raise ValueError(f"Colonnes manquantes dans le dataset. Requises : {required_columns}")
 
 # Prétraitement des données produits
 products['text_features'] = products['main_category'] + " " + products['sub_category'] + " " + products['name']
@@ -21,6 +30,9 @@ def recommend():
     Point de terminaison pour obtenir des recommandations.
     """
     data = request.json
+    if not data or 'product_id' not in data:
+        return jsonify({"error": "Données manquantes ou incorrectes"}), 400
+
     product_id = data.get('product_id')
     action_type = data.get('action', 'viewed')  # Action par défaut : 'viewed'
 
