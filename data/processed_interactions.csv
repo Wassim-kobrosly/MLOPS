@@ -1,0 +1,13 @@
+interaction_id,user_id,product_id,action
+42e64711-2cba-4326-877a-45df37b485b3,ecca17e4-2fdb-45e5-b947-b542439ce22c,1,viewed
+b6d2fd44-c90d-4dd6-90bd-83a61a120649,ecca17e4-2fdb-45e5-b947-b542439ce22c,1,added_to_cart
+42859697-3235-4f8a-a497-d0c1405b1bd4,ecca17e4-2fdb-45e5-b947-b542439ce22c,1,purchased
+472f30ac-352b-42de-a050-1dfa4ef569e9,ecca17e4-2fdb-45e5-b947-b542439ce22c,1,viewed
+6f62ce8b-a9f6-43bf-bc6f-9f16f768a3b8,ecca17e4-2fdb-45e5-b947-b542439ce22c,1,added_to_cart
+6,ecca17e4-2fdb-45e5-b947-b542439ce22c,1,added_to_cart
+7,ecca17e4-2fdb-45e5-b947-b542439ce22c,9427,viewed
+8,ecca17e4-2fdb-45e5-b947-b542439ce22c,9427,purchased
+9,ecca17e4-2fdb-45e5-b947-b542439ce22c,11283,added_to_cart
+10,ecca17e4-2fdb-45e5-b947-b542439ce22c,3,added_to_cart
+11,ecca17e4-2fdb-45e5-b947-b542439ce22c,5,added_to_cart
+12,ecca17e4-2fdb-45e5-b947-b542439ce22c,3,added_to_cart

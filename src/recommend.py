@@ -4,9 +4,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Charger les fichiers CSV
-products = pd.read_csv('/content/drive/MyDrive/Kaggle_Datasets/merged_dataset_cleaned.csv')
-users = pd.read_csv('/content/drive/MyDrive/Kaggle_Datasets/users.csv')
-interactions = pd.read_csv('/content/drive/MyDrive/Kaggle_Datasets/interactions.csv')
+products = pd.read_csv('../../test/data/products.csv')
+users = pd.read_csv('../../test/data/users.csv')
+interactions = pd.read_csv('../../test/data/interactions.csv')
 
 # Ajouter une colonne 'id_produit' si elle n'existe pas
 if 'id_produit' not in products.columns:
@@ -78,7 +78,7 @@ def recommend_and_store_prediction(interactions, products, product_vectors):
             })
 
     recommendations_df = pd.DataFrame(recommendations)
-    recommendations_df.to_csv('/content/drive/MyDrive/Kaggle_Datasets/predictions.csv', index=False, mode='a', header=not pd.io.common.file_exists('/content/drive/MyDrive/Kaggle_Datasets/predictions.csv'))
+    recommendations_df.to_csv('../../test/data/predictions.csv', index=False, mode='a', header=not pd.io.common.file_exists('../../test/data/predictions.csv'))
 
     return recommendations_df
 

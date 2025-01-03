@@ -1,5 +1,3 @@
-# data_preprocessing.py
-
 import os
 import pandas as pd
 
@@ -33,35 +31,45 @@ def preprocess_data(datasets):
     Returns:
         dict: Dictionnaire contenant les datasets prétraités.
     """
-    products = datasets.get('merged_dataset_cleaned', None)
+    users = datasets.get('users', None)
+    products = datasets.get('products', None)
     interactions = datasets.get('interactions', None)
 
-    if products is None or interactions is None:
-        raise ValueError("Les fichiers 'merged_dataset_cleaned.csv' et 'interactions.csv' sont requis.")
+    if users is None or products is None or interactions is None:
+        raise ValueError("Les fichiers 'users.csv', 'products.csv' et 'interactions.csv' sont requis.")
+
+    # Ajouter un ID d'utilisateur si nécessaire
+    if 'user_id' not in users.columns:
+        users['user_id'] = range(1, len(users) + 1)
 
     # Ajouter un ID de produit si nécessaire
-    if 'id_produit' not in products.columns:
-        products['id_produit'] = range(1, len(products) + 1)
+    if 'product_id' not in products.columns:
+        products['product_id'] = range(1, len(products) + 1)
 
-    # Filtrer les interactions pour inclure uniquement les produits existants
-    interactions = interactions[interactions['product_id'].isin(products['id_produit'])]
+    # Filtrer les interactions pour inclure uniquement les utilisateurs et les produits existants
+    interactions = interactions[interactions['user_id'].isin(users['user_id'])]
+    interactions = interactions[interactions['product_id'].isin(products['product_id'])]
 
     # Ajouter un ID d'interaction si nécessaire
     if 'interaction_id' not in interactions.columns:
         interactions['interaction_id'] = range(1, len(interactions) + 1)
 
+    datasets['users'] = users
     datasets['products'] = products
     datasets['interactions'] = interactions
 
     return datasets
 
 if __name__ == "__main__":
-    data_dir = "~/desktop/mlops/data"
+    data_dir = "../../test/data"  # Chemin du répertoire contenant les fichiers CSV
+    data_save = "../data"
     datasets = load_data(data_dir)
     processed_datasets = preprocess_data(datasets)
 
     # Sauvegarder les fichiers prétraités
-    processed_datasets['products'].to_csv(os.path.join(data_dir, 'processed_products.csv'), index=False)
-    processed_datasets['interactions'].to_csv(os.path.join(data_dir, 'processed_interactions.csv'), index=False)
+    processed_datasets['users'].to_csv(os.path.join(data_save, 'processed_users.csv'), index=False)
+    processed_datasets['products'].to_csv(os.path.join(data_save, 'processed_products.csv'), index=False)
+    processed_datasets['interactions'].to_csv(os.path.join(data_save, 'processed_interactions.csv'), index=False)
 
     print("Prétraitement terminé et fichiers sauvegardés.")
+
