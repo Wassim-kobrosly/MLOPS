@@ -5,8 +5,8 @@ import mlflow
 import mlflow.sklearn
 
 # Charger les fichiers CSV
-products = pd.read_csv('../../test/data/products.csv')
-interactions = pd.read_csv('../../test/data/interactions.csv')
+products = pd.read_csv('../../web/data/products.csv')
+interactions = pd.read_csv('../../web/data/interactions.csv')
 
 # Ajouter une colonne 'id_produit' si elle n'existe pas
 if 'id_produit' not in products.columns:

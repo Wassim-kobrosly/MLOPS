@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/8adeea0695074ac8bd44403004d9aab1/artifacts
+end_time: 1736114263009
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8adeea0695074ac8bd44403004d9aab1
+run_name: intrigued-mouse-811
+run_uuid: 8adeea0695074ac8bd44403004d9aab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736114262573
+status: 4
+tags: []
+user_id: osboxes
