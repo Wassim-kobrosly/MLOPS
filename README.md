@@ -4,4 +4,6 @@ watchfile.py : un watchdog qui serveille le moindre changement de interraction.c
  
 coordination avec Mlflow
 
-prochaine étape CI/CD Gitlab
+prochaine étape CI/CD Gitlab 
+
+et enfin hébergement orender
