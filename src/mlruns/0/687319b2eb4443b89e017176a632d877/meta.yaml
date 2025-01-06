@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/687319b2eb4443b89e017176a632d877/artifacts
+end_time: 1736154633325
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 687319b2eb4443b89e017176a632d877
+run_name: kindly-shrew-40
+run_uuid: 687319b2eb4443b89e017176a632d877
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633255
+status: 3
+tags: []
+user_id: osboxes

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/441a2ef65bf64a27a0a861227de61085/artifacts
+end_time: 1736154325225
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 441a2ef65bf64a27a0a861227de61085
+run_name: abundant-horse-689
+run_uuid: 441a2ef65bf64a27a0a861227de61085
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154323140
+status: 3
+tags: []
+user_id: osboxes

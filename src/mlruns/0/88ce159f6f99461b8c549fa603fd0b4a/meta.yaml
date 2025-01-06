@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/88ce159f6f99461b8c549fa603fd0b4a/artifacts
+end_time: 1736154329601
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88ce159f6f99461b8c549fa603fd0b4a
+run_name: monumental-mule-302
+run_uuid: 88ce159f6f99461b8c549fa603fd0b4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154323135
+status: 4
+tags: []
+user_id: osboxes

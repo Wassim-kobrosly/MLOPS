@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/109c0eacbc0e42bdb4f7bbdf9e2ca550/artifacts
+end_time: 1736154634329
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 109c0eacbc0e42bdb4f7bbdf9e2ca550
+run_name: tasteful-moth-108
+run_uuid: 109c0eacbc0e42bdb4f7bbdf9e2ca550
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154634259
+status: 3
+tags: []
+user_id: osboxes

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/cbb4816757814f258ff55617b108bcb1/artifacts
+end_time: 1736154329600
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cbb4816757814f258ff55617b108bcb1
+run_name: amusing-finch-331
+run_uuid: cbb4816757814f258ff55617b108bcb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154328953
+status: 4
+tags: []
+user_id: osboxes

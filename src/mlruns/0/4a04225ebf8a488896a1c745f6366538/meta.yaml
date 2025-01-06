@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/4a04225ebf8a488896a1c745f6366538/artifacts
+end_time: 1736154633109
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a04225ebf8a488896a1c745f6366538
+run_name: languid-dog-515
+run_uuid: 4a04225ebf8a488896a1c745f6366538
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633080
+status: 3
+tags: []
+user_id: osboxes

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/938729fe8ebc4ac1a15f707bfcdba046/artifacts
+end_time: 1736154633403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 938729fe8ebc4ac1a15f707bfcdba046
+run_name: bouncy-goat-775
+run_uuid: 938729fe8ebc4ac1a15f707bfcdba046
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633327
+status: 3
+tags: []
+user_id: osboxes

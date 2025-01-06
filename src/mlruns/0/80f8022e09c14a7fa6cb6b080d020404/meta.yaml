@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/80f8022e09c14a7fa6cb6b080d020404/artifacts
+end_time: 1736154327056
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80f8022e09c14a7fa6cb6b080d020404
+run_name: monumental-flea-333
+run_uuid: 80f8022e09c14a7fa6cb6b080d020404
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154325228
+status: 3
+tags: []
+user_id: osboxes

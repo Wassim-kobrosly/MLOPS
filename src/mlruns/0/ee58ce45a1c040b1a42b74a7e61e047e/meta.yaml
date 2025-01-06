@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/ee58ce45a1c040b1a42b74a7e61e047e/artifacts
+end_time: 1736155276270
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee58ce45a1c040b1a42b74a7e61e047e
+run_name: hilarious-fly-325
+run_uuid: ee58ce45a1c040b1a42b74a7e61e047e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155276200
+status: 3
+tags: []
+user_id: osboxes

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/18643d2731504b2b8d85bcf361e2174a/artifacts
+end_time: 1736155275319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 18643d2731504b2b8d85bcf361e2174a
+run_name: secretive-stork-810
+run_uuid: 18643d2731504b2b8d85bcf361e2174a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275247
+status: 3
+tags: []
+user_id: osboxes

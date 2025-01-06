@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/ea0eec13abee4ec192b62b42f11b6aa7/artifacts
+end_time: 1736154883307
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea0eec13abee4ec192b62b42f11b6aa7
+run_name: beautiful-carp-362
+run_uuid: ea0eec13abee4ec192b62b42f11b6aa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154881102
+status: 3
+tags: []
+user_id: osboxes

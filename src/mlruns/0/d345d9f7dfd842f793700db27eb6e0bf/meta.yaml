@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/d345d9f7dfd842f793700db27eb6e0bf/artifacts
+end_time: 1736154634032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d345d9f7dfd842f793700db27eb6e0bf
+run_name: ambitious-midge-786
+run_uuid: d345d9f7dfd842f793700db27eb6e0bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633957
+status: 3
+tags: []
+user_id: osboxes

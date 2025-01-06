@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/ba91e63fb5fb4fb1823c99df2d7ac05a/artifacts
+end_time: 1736154328951
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ba91e63fb5fb4fb1823c99df2d7ac05a
+run_name: skittish-ant-347
+run_uuid: ba91e63fb5fb4fb1823c99df2d7ac05a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154327059
+status: 3
+tags: []
+user_id: osboxes

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/f2714c9b50d7425e8653046573bf8742/artifacts
+end_time: 1736155275891
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2714c9b50d7425e8653046573bf8742
+run_name: charming-robin-803
+run_uuid: f2714c9b50d7425e8653046573bf8742
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275818
+status: 3
+tags: []
+user_id: osboxes

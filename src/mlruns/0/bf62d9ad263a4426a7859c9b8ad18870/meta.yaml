@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/bf62d9ad263a4426a7859c9b8ad18870/artifacts
+end_time: 1736155276122
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf62d9ad263a4426a7859c9b8ad18870
+run_name: rare-dove-168
+run_uuid: bf62d9ad263a4426a7859c9b8ad18870
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155276043
+status: 3
+tags: []
+user_id: osboxes

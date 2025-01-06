@@ -1,8 +1,7 @@
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 import mlflow
 import mlflow.sklearn
+from custom_model import CustomModel
 
 # Charger les fichiers CSV
 products = pd.read_csv('../../web/data/products.csv')
@@ -12,30 +11,24 @@ interactions = pd.read_csv('../../web/data/interactions.csv')
 if 'id_produit' not in products.columns:
     products['id_produit'] = range(1, len(products) + 1)
 
-# Filtrer les interactions pour inclure uniquement les produits existants
-interactions = interactions[interactions['product_id'].isin(products['id_produit'])]
-
-# Ajouter la colonne 'interaction_id' si elle n'existe pas
-if 'interaction_id' not in interactions.columns:
-    interactions['interaction_id'] = range(1, len(interactions) + 1)
-
 # Prétraitement des données produits
 products['text_features'] = products['main_category'] + " " + products['sub_category'] + " " + products['name']
-tfidf = TfidfVectorizer()
-product_vectors = tfidf.fit_transform(products['text_features'])
 
-# Fonction d'entraînement du modèle
+# Créer et entraîner CustomModel
+model = CustomModel()
+model.fit(products['text_features'])
+
+# Exemple d'entrée pour l'enregistrement
+input_example = products['text_features'].iloc[0:1].tolist()
+
+# Enregistrer le modèle avec MLflow
 def train_model():
     with mlflow.start_run():
-        # Enregistrer le modèle
-        mlflow.sklearn.log_model(tfidf, "tfidf_vectorizer")
-        mlflow.sklearn.log_model(product_vectors, "product_vectors")
-
-        # Enregistrer les paramètres et les métriques
+        mlflow.sklearn.log_model(model, "custom_model", input_example={"text_features": input_example})
         mlflow.log_param("num_products", len(products))
-        mlflow.log_metric("tfidf_vocab_size", len(tfidf.vocabulary_))
+        mlflow.log_metric("tfidf_vocab_size", len(model.vectorizer.vocabulary_))
 
-    print("Modèle entraîné et enregistré avec MLflow.")
+    print("Modèle personnalisé entraîné et enregistré avec MLflow.")
 
 if __name__ == '__main__':
     train_model()

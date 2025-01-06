@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/2b3b90fb1eb74b61b8421a14644ace8c/artifacts
+end_time: 1736155275739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2b3b90fb1eb74b61b8421a14644ace8c
+run_name: ambitious-grouse-0
+run_uuid: 2b3b90fb1eb74b61b8421a14644ace8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275666
+status: 3
+tags: []
+user_id: osboxes
