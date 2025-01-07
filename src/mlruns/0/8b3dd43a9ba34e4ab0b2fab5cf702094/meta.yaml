@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/8b3dd43a9ba34e4ab0b2fab5cf702094/artifacts
+end_time: 1736154633012
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b3dd43a9ba34e4ab0b2fab5cf702094
+run_name: resilient-donkey-829
+run_uuid: 8b3dd43a9ba34e4ab0b2fab5cf702094
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154632939
+status: 3
+tags: []
+user_id: osboxes

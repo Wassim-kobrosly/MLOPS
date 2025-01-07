@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/bd61472c6da34df29cb9c6d7af7308eb/artifacts
+end_time: 1736154634180
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd61472c6da34df29cb9c6d7af7308eb
+run_name: gaudy-bug-841
+run_uuid: bd61472c6da34df29cb9c6d7af7308eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154634104
+status: 3
+tags: []
+user_id: osboxes

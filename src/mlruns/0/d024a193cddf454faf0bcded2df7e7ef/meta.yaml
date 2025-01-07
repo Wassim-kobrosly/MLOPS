@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/d024a193cddf454faf0bcded2df7e7ef/artifacts
+end_time: 1736154634258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d024a193cddf454faf0bcded2df7e7ef
+run_name: rebellious-shrew-569
+run_uuid: d024a193cddf454faf0bcded2df7e7ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154634181
+status: 3
+tags: []
+user_id: osboxes

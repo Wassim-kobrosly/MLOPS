@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/c2c31f13c3c0449e9801a846840858d3/artifacts
+end_time: 1736155275215
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c2c31f13c3c0449e9801a846840858d3
+run_name: selective-kit-229
+run_uuid: c2c31f13c3c0449e9801a846840858d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275139
+status: 3
+tags: []
+user_id: osboxes

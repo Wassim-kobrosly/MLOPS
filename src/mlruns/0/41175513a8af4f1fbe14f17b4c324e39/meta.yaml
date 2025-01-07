@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/41175513a8af4f1fbe14f17b4c324e39/artifacts
+end_time: 1736154423923
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41175513a8af4f1fbe14f17b4c324e39
+run_name: zealous-dolphin-880
+run_uuid: 41175513a8af4f1fbe14f17b4c324e39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154420810
+status: 3
+tags: []
+user_id: osboxes

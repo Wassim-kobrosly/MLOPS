@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/1955b824cf9640e395559eeecc0c60d7/artifacts
+end_time: 1736155275245
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1955b824cf9640e395559eeecc0c60d7
+run_name: indecisive-gnat-109
+run_uuid: 1955b824cf9640e395559eeecc0c60d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275217
+status: 3
+tags: []
+user_id: osboxes

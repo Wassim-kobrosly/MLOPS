@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/9d53c59bef3f4426ae7fee4cbfc50399/artifacts
+end_time: 1736155275397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d53c59bef3f4426ae7fee4cbfc50399
+run_name: welcoming-ram-282
+run_uuid: 9d53c59bef3f4426ae7fee4cbfc50399
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275321
+status: 3
+tags: []
+user_id: osboxes

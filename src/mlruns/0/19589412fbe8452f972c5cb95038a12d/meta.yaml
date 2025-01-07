@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/19589412fbe8452f972c5cb95038a12d/artifacts
+end_time: 1736155275965
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19589412fbe8452f972c5cb95038a12d
+run_name: sneaky-loon-470
+run_uuid: 19589412fbe8452f972c5cb95038a12d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275893
+status: 3
+tags: []
+user_id: osboxes
