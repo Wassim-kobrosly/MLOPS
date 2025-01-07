@@ -1,6 +1,6 @@
 
  
--Model définit entreainé et enregistré avec Mlflow (On ne comprend pas les resultat et visualisations pour l'instant pour pouvoir les expliquer)
+-Model définit, entrainé et enregistré avec Mlflow (On ne comprend pas les resultat et visualisations pour l'instant pour pouvoir les expliquer)
 
 -Site Web crée (voir https://github.com/Wassim-kobrosly/Flask-Web-App.git)
 
@@ -19,7 +19,7 @@ MLOPS_Project/
 
 │   ├── train.py             # Entraînement du modèle
 
-│   └── watchfile.py         # Un watchdog qui serveille le moindre changement de interraction.csv et si oui execute recommand.py
+│   └── watchfile.py         # Un watchdog qui serveille le changement de interraction.csv et si oui execute recommand.py
 
 ├── mlruns/                  # Répertoire pour les logs MLflow (généré automatiquement)
 
