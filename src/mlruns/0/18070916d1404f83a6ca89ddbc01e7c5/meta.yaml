@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/18070916d1404f83a6ca89ddbc01e7c5/artifacts
+end_time: 1736154426395
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 18070916d1404f83a6ca89ddbc01e7c5
+run_name: secretive-smelt-154
+run_uuid: 18070916d1404f83a6ca89ddbc01e7c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154425699
+status: 4
+tags: []
+user_id: osboxes

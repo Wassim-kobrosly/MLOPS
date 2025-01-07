@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/7f10a953d3db47df888e760f641aeb29/artifacts
+end_time: 1736154633735
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f10a953d3db47df888e760f641aeb29
+run_name: skillful-asp-469
+run_uuid: 7f10a953d3db47df888e760f641aeb29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633662
+status: 3
+tags: []
+user_id: osboxes

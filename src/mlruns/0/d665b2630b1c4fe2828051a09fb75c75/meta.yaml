@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/d665b2630b1c4fe2828051a09fb75c75/artifacts
+end_time: 1736154633660
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d665b2630b1c4fe2828051a09fb75c75
+run_name: bustling-grub-501
+run_uuid: d665b2630b1c4fe2828051a09fb75c75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633590
+status: 3
+tags: []
+user_id: osboxes

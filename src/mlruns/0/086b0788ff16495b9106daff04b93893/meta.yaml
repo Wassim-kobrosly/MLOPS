@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/086b0788ff16495b9106daff04b93893/artifacts
+end_time: 1736154623464
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 086b0788ff16495b9106daff04b93893
+run_name: persistent-panda-901
+run_uuid: 086b0788ff16495b9106daff04b93893
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154620476
+status: 3
+tags: []
+user_id: osboxes

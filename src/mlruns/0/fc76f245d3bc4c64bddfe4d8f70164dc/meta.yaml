@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/fc76f245d3bc4c64bddfe4d8f70164dc/artifacts
+end_time: 1736154634102
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc76f245d3bc4c64bddfe4d8f70164dc
+run_name: funny-bass-57
+run_uuid: fc76f245d3bc4c64bddfe4d8f70164dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154634033
+status: 3
+tags: []
+user_id: osboxes

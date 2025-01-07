@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/eb39412509154d4487bec4bb53480701/artifacts
+end_time: 1736154426396
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb39412509154d4487bec4bb53480701
+run_name: trusting-hound-859
+run_uuid: eb39412509154d4487bec4bb53480701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154420804
+status: 4
+tags: []
+user_id: osboxes

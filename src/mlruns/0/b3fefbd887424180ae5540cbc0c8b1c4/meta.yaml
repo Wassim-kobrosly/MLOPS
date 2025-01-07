@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/b3fefbd887424180ae5540cbc0c8b1c4/artifacts
+end_time: 1736155275664
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3fefbd887424180ae5540cbc0c8b1c4
+run_name: casual-zebra-987
+run_uuid: b3fefbd887424180ae5540cbc0c8b1c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275587
+status: 3
+tags: []
+user_id: osboxes

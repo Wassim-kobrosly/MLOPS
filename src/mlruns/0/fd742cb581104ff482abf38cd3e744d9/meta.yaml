@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/fd742cb581104ff482abf38cd3e744d9/artifacts
+end_time: 1736154633078
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd742cb581104ff482abf38cd3e744d9
+run_name: mercurial-shrimp-733
+run_uuid: fd742cb581104ff482abf38cd3e744d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633013
+status: 3
+tags: []
+user_id: osboxes

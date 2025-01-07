@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/35de39581b984a42b2ed164873603f40/artifacts
+end_time: 1736154633513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 35de39581b984a42b2ed164873603f40
+run_name: nosy-toad-128
+run_uuid: 35de39581b984a42b2ed164873603f40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633435
+status: 3
+tags: []
+user_id: osboxes

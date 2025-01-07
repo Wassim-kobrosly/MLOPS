@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/2f12015beedb4ad29010347b4794cb6d/artifacts
+end_time: 1736155287918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f12015beedb4ad29010347b4794cb6d
+run_name: clean-rat-104
+run_uuid: 2f12015beedb4ad29010347b4794cb6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155285468
+status: 3
+tags: []
+user_id: osboxes

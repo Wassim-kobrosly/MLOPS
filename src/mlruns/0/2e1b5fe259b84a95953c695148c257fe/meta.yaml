@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/2e1b5fe259b84a95953c695148c257fe/artifacts
+end_time: 1736154633253
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e1b5fe259b84a95953c695148c257fe
+run_name: shivering-lamb-131
+run_uuid: 2e1b5fe259b84a95953c695148c257fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633183
+status: 3
+tags: []
+user_id: osboxes

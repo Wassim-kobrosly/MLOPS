@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/0ef47e59056845549a19dce9d5ed792b/artifacts
+end_time: 1736155275471
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ef47e59056845549a19dce9d5ed792b
+run_name: rogue-owl-562
+run_uuid: 0ef47e59056845549a19dce9d5ed792b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275399
+status: 3
+tags: []
+user_id: osboxes

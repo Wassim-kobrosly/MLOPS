@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/dcf071f0888a42baa963a7a8dab3618f/artifacts
+end_time: 1736155275817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dcf071f0888a42baa963a7a8dab3618f
+run_name: honorable-sow-476
+run_uuid: dcf071f0888a42baa963a7a8dab3618f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275741
+status: 3
+tags: []
+user_id: osboxes

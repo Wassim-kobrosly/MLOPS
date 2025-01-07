@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/403a35b844f34484b92d2c4263be2245/artifacts
+end_time: 1736154633955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 403a35b844f34484b92d2c4263be2245
+run_name: persistent-squid-927
+run_uuid: 403a35b844f34484b92d2c4263be2245
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633882
+status: 3
+tags: []
+user_id: osboxes

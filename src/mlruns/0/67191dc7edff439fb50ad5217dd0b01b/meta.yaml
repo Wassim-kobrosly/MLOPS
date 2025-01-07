@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/67191dc7edff439fb50ad5217dd0b01b/artifacts
+end_time: 1736154633434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67191dc7edff439fb50ad5217dd0b01b
+run_name: masked-croc-45
+run_uuid: 67191dc7edff439fb50ad5217dd0b01b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633404
+status: 3
+tags: []
+user_id: osboxes

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/f8817b3039d748c28fca220b4fddc0ab/artifacts
+end_time: 1736155275138
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8817b3039d748c28fca220b4fddc0ab
+run_name: rumbling-cow-879
+run_uuid: f8817b3039d748c28fca220b4fddc0ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736155275064
+status: 3
+tags: []
+user_id: osboxes

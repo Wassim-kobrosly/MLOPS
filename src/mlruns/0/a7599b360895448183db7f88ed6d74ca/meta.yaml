@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/a7599b360895448183db7f88ed6d74ca/artifacts
+end_time: 1736154633588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7599b360895448183db7f88ed6d74ca
+run_name: chill-smelt-551
+run_uuid: a7599b360895448183db7f88ed6d74ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154633514
+status: 3
+tags: []
+user_id: osboxes

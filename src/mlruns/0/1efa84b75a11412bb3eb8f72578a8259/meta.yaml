@@ -1,0 +1,15 @@
+artifact_uri: file:///home/osboxes/Desktop/project/Model/src/mlruns/0/1efa84b75a11412bb3eb8f72578a8259/artifacts
+end_time: 1736154198832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1efa84b75a11412bb3eb8f72578a8259
+run_name: wise-bee-511
+run_uuid: 1efa84b75a11412bb3eb8f72578a8259
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736154188894
+status: 3
+tags: []
+user_id: osboxes
