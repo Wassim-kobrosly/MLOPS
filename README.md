@@ -1,6 +1,6 @@
 
  
--Model définit entreainé et enregistré avec Mlflow
+-Model définit entreainé et enregistré avec Mlflow (On ne comprend pas les resultat et visualisations pour l'instant pour pouvoir les expliquer)
 
 -Site Web crée (voir https://github.com/Wassim-kobrosly/Flask-Web-App.git)
 
